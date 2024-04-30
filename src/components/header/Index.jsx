@@ -19,10 +19,16 @@ const Container = styled.div`
 
 const Image = styled.img`
     width: 9vw;
+    @media (max-width: 768px) {
+        width: 50vw;
+    }
 `
 
 const ImageLogo = styled.img`
     width: 1.5vw;
+    @media (max-width: 724px) {
+        width: 8vw;
+    }
 `
 
 const Name = styled.h1`
@@ -37,6 +43,7 @@ const Style = styled.div`
     background: linear-gradient(45deg, #a64dff, #c682ff);
     gap: 8px;
     cursor: pointer;
+
 `
 
 export const Header = () => {
