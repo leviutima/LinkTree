@@ -6,7 +6,7 @@ import { Header } from './components/header/Index'
 function App() {
 
   const Fundo = styled.div`
-    background: linear-gradient(to bottom, #ffcccc, #ff99cc);
+   background: linear-gradient(to bottom, #800080, #4B0082);
     width: 100%;
     min-height: 100vh;
   `
