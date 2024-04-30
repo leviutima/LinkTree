@@ -1,14 +1,16 @@
 import styled from "styled-components"
-import profile from '../header/images.png'
+import profile from '../header/profile.png'
 
-const cabecalho = styled.header``
+const Cabecalho = styled.header`
+
+`
 
 
 export const Header = () => {
     return(
-        <cabecalho>
+        <Cabecalho>
             <h1>LinkTree</h1>
             <img src={profile}></img>
-        </cabecalho>
+        </Cabecalho>
     )
 }
